@@ -15,3 +15,5 @@ class FoodwakespiderItem(scrapy.Item):
     nickname = scrapy.Field()
     # 食材详细营养成分
     info = scrapy.Field()
+    # 食材链接
+    url = scrapy.Field()
